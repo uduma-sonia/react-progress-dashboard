@@ -5,6 +5,7 @@ module.exports = {
       width: {
         15: "10%",
         30: "30%",
+        54: "54%",
       },
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],

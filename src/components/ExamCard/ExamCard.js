@@ -15,7 +15,7 @@ function ExamCard() {
       <div className="flex justify-between mt-3">
         <div></div>
 
-        <a className="text-sm underline">Start Testing</a>
+        <a className="text-sm underline cursor-pointer">Start Testing</a>
       </div>
     </div>
   );
