@@ -14,13 +14,25 @@ function SideBar() {
 
       <div className="mt-32 flex flex-col justify-between h-72">
         <FontAwesomeIcon
-          className="text-slate-500"
+          className="text-slate-500 cursor-pointer"
           icon={faSlidersH}
           size="lg"
         />
-        <FontAwesomeIcon className="text-slate-500" icon={faCubes} size="lg" />
-        <FontAwesomeIcon className="text-slate-500" icon={faUser} size="lg" />
-        <FontAwesomeIcon className="text-slate-500" icon={faWrench} size="lg" />
+        <FontAwesomeIcon
+          className="text-slate-500 cursor-pointer"
+          icon={faCubes}
+          size="lg"
+        />
+        <FontAwesomeIcon
+          className="text-slate-500 cursor-pointer"
+          icon={faUser}
+          size="lg"
+        />
+        <FontAwesomeIcon
+          className="text-slate-500 cursor-pointer"
+          icon={faWrench}
+          size="lg"
+        />
       </div>
     </div>
   );
