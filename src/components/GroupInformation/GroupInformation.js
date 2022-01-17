@@ -2,10 +2,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import spanishFlag from "../../images/spain.png";
 
 function GroupInformation() {
   return (
-    <div className="flex">
+    <div className="flex items-center">
       <div className="shadow-2xl w-54 mr-3 rounded-lg p-4">
         <div className="flex justify-between items-center mb-1">
           <h5 className="font-bold text-md text-slate-800">Group Info</h5>
@@ -35,7 +36,21 @@ function GroupInformation() {
         </p>
       </div>
 
-      <div className="border border-red-700 ml-4">Right</div>
+      <div className="ml-4 flex items-cent">
+        <div>
+          <div className="shadow-xl rounded-lg w-10 h-10 p-1 bg-slate-50">
+            <img
+              src={spanishFlag}
+              alt="flag"
+              className="object-contain w-full h-full rounded-lg"
+            />
+          </div>
+
+          <h6 className="font-bold text-2xl text-slate-700 mt-4">
+            Spanish for <br /> beginners
+          </h6>
+        </div>
+      </div>
     </div>
   );
 }
