@@ -9,12 +9,10 @@ function MiddleLayout() {
       <h1 className="text-4xl font-bold text-slate-800 mt-20 mb-7">
         Progress Dashboard
       </h1>
-
       <div className="flex mb-10">
         <ExamCard />
         <Box />
       </div>
-
       <GroupInformation />
     </div>
   );
