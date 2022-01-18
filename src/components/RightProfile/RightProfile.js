@@ -1,7 +1,11 @@
 import React from "react";
 import ProfileCard from "../ProfileCard/ProfileCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight, faPencilAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faChevronRight,
+  faPencilAlt,
+  faBookOpen,
+} from "@fortawesome/free-solid-svg-icons";
 import ProgressCard from "../ProgressCard/ProgressCard";
 
 function RightProfile() {
@@ -29,9 +33,16 @@ function RightProfile() {
           Courses Progress
         </h2>
 
-        <ProgressCard />
-        <ProgressCard />
-        <ProgressCard />
+        {data.map((card, index) => (
+          <ProgressCard
+            key={index}
+            title={card.title}
+            percent={card.percent}
+            subTitle={card.subTitle}
+            color={card.color}
+            icon={card.icon}
+          />
+        ))}
       </div>
     </div>
   );
@@ -39,11 +50,25 @@ function RightProfile() {
 
 const data = [
   {
-    percent: 40,
+    percent: 63,
     title: "Grammar",
     subTitle: "Learn new rules",
+    color: "#5d3d8f",
+    icon: faPencilAlt,
+  },
+  {
+    percent: 70,
+    title: "Dictionary",
+    subTitle: "Learn 5 new words",
     color: "#e66a35",
-    icon: "whatevs",
+    icon: faPencilAlt,
+  },
+  {
+    percent: 40,
+    title: "Reading",
+    subTitle: "Train your skill",
+    color: " #ff4538",
+    icon: faBookOpen,
   },
 ];
 

@@ -26,7 +26,7 @@ export default function MiddleLayoutFooter() {
         </div>
 
         <div>
-          <FontAwesomeIcon icon={faChevronRight} size="md" />
+          <FontAwesomeIcon icon={faChevronRight} size="sm" />
         </div>
       </div>
 
@@ -47,7 +47,7 @@ export default function MiddleLayoutFooter() {
         </div>
 
         <div>
-          <FontAwesomeIcon icon={faChevronRight} size="md" />
+          <FontAwesomeIcon icon={faChevronRight} size="sm" />
         </div>
       </div>
     </div>
