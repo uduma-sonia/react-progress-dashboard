@@ -6,7 +6,7 @@ import MiddleLayoutFooter from "../MiddleLayoutFooter/MiddleLayoutFooter";
 
 function MiddleLayout() {
   return (
-    <div className="w-3/5 px-10 mb-40">
+    <div className="w-70 px-10 mb-20">
       <h1 className="text-4xl font-bold text-slate-800 mt-20 mb-7">
         Progress Dashboard
       </h1>
