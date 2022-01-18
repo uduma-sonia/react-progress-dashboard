@@ -2,10 +2,11 @@ import React from "react";
 import Box from "../Box/Box";
 import ExamCard from "../ExamCard/ExamCard";
 import GroupInformation from "../GroupInformation/GroupInformation";
+import MiddleLayoutFooter from "../MiddleLayoutFooter/MiddleLayoutFooter";
 
 function MiddleLayout() {
   return (
-    <div className="w-3/5 px-10">
+    <div className="w-3/5 px-10 mb-40">
       <h1 className="text-4xl font-bold text-slate-800 mt-20 mb-7">
         Progress Dashboard
       </h1>
@@ -14,6 +15,7 @@ function MiddleLayout() {
         <Box />
       </div>
       <GroupInformation />
+      <MiddleLayoutFooter />
     </div>
   );
 }

@@ -7,7 +7,7 @@ function DashboardLayout() {
   return (
     <div className="flex">
       <SideBar />
-      <div className="ml-32 flex w-11/12">
+      <div className="ml-32 flex w-90 absolute right-0">
         <MiddleLayout />
         <RightProfile />
       </div>

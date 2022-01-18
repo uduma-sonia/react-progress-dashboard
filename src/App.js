@@ -2,7 +2,7 @@ import DashboardLayout from "./layout/dashboardLayout";
 
 function App() {
   return (
-    <div className="App font-manrope">
+    <div className="font-manrope container ">
       <DashboardLayout />
     </div>
   );

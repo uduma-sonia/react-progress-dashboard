@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBell } from "@fortawesome/free-regular-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faBell } from "@fortawesome/free-regular-svg-icons";
 import spanishFlag from "../../images/spain.png";
 
 function GroupInformation() {
@@ -29,7 +29,7 @@ function GroupInformation() {
 
         <div className="flex justify-between items-center mb-1">
           <h5 className="font-bold text-md text-slate-800">Today's lesson</h5>
-          <p>12:00</p>
+          <p className="text-sm font-semibold">12:00</p>
         </div>
         <p className="text-xs text-slate-600 font-semibold">
           unit 6 - Articles
@@ -49,6 +49,11 @@ function GroupInformation() {
           <h6 className="font-bold text-2xl text-slate-700 mt-4">
             Spanish for <br /> beginners
           </h6>
+
+          <div className="mt-6">
+            <p className="text-sm font-bold">75%</p>
+            <input type="range" min="1" max="100" defaultValue="75" />
+          </div>
         </div>
       </div>
     </div>
